@@ -50,9 +50,9 @@ const config: ExpoConfig = {
   ios: {
     supportsTablet: true,
     bundleIdentifier: env.iosBundleId,
-    "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
-      }
+    infoPlist: {
+      ITSAppUsesNonExemptEncryption: false,
+    },
   },
   android: {
     adaptiveIcon: {
@@ -84,6 +84,14 @@ const config: ExpoConfig = {
     output: "static",
     favicon: "./assets/images/favicon.png",
   },
+
+  // Added for EAS project linking
+  extra: {
+    eas: {
+      projectId: "4e21ca47-1e9e-4f08-ba8b-0906ca7890df",
+    },
+  },
+
   plugins: [
     "expo-router",
     [
