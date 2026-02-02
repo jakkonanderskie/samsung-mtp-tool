@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Samsung devices (Vendor ID: 0x04E8) -->
+    <usb-device vendor-id="1256" />
+    
+    <!-- Google/Nexus devices (Vendor ID: 0x18D1) -->
+    <usb-device vendor-id="6353" />
+    
+    <!-- LG devices (Vendor ID: 0x1004) -->
+    <usb-device vendor-id="4100" />
+    
+    <!-- Huawei devices (Vendor ID: 0x12D1) -->
+    <usb-device vendor-id="4817" />
+    
+    <!-- Xiaomi devices (Vendor ID: 0x2717) -->
+    <usb-device vendor-id="10007" />
+    
+    <!-- OnePlus devices (Vendor ID: 0x2A70) -->
+    <usb-device vendor-id="10864" />
+    
+    <!-- Sony devices (Vendor ID: 0x0FCE) -->
+    <usb-device vendor-id="4046" />
+    
+    <!-- Motorola devices (Vendor ID: 0x22B8) -->
+    <usb-device vendor-id="8888" />
+    
+    <!-- HTC devices (Vendor ID: 0x0BB4) -->
+    <usb-device vendor-id="2996" />
+    
+    <!-- OPPO devices (Vendor ID: 0x22D9) -->
+    <usb-device vendor-id="8921" />
+    
+    <!-- Vivo devices (Vendor ID: 0x2D95) -->
+    <usb-device vendor-id="11669" />
+    
+    <!-- Realme devices (Vendor ID: 0x2D95) - same as Vivo -->
+    
+    <!-- Generic MTP class devices (class 6 = Still Image/PTP, subclass 1, protocol 1) -->
+    <!-- This catches any device presenting as MTP -->
+    <usb-device class="6" subclass="1" protocol="1" />
+</resources>
